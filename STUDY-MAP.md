@@ -62,7 +62,7 @@ The learner follows the official Microsoft Learn sequence by default. Completed 
 
 | Order | Official module | Main coverage | Repository material | Gap status | Learner status |
 |---:|---|---|---|---|---|
-| 1 | [Get started with AI in Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/) | Azure hierarchy, Foundry resources/projects, endpoints, authentication | Topic file pending | Foundry resource/authentication gap pending | **Not started** |
+| 1 | [Get started with AI in Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/) | Azure hierarchy, Foundry resources/projects, endpoints, authentication | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) | [Gap complete](research/gaps/foundry-resources-projects-endpoints-authentication.md) | **Not started** |
 | 2 | [Get started with generative AI and agents in Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/) | Model selection/deployment, prompts, chat client, agent portal/client | Topic files pending | Generative, agent, Foundry SDK, and Python gaps pending | **Not started** |
 | 3 | [Get started with text analysis in Azure](https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/) | Foundry text analysis, Azure Language, Python client, agent tool | Topic file pending | Text analysis and Python gaps pending | **Not started** |
 | 4 | [Get started with speech in Azure](https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/) | Speech SDK, recognition, synthesis, Voice Live | [`docs/topics/speech.md`](docs/topics/speech.md) | [Gap complete](research/gaps/speech-recognition-synthesis.md) | **Not started** |
@@ -100,13 +100,13 @@ Gap clusters:
 
 - **Responsible AI and model concepts — pending**
 - **Generative AI, prompts, and model configuration — pending**
-- **Foundry resources, projects, deployments, endpoints, and authentication — pending**
+- [**Foundry resources, projects, deployments, endpoints, and authentication — complete**](research/gaps/foundry-resources-projects-endpoints-authentication.md)
 
 | Official subtopic | Official study links | Prepared asset |
 |---|---|---|
 | How generative AI models work | [Large language models](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models) | Pending gap/topic material |
 | Select an appropriate model based on capabilities | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) | Pending model-selection table |
-| Select deployment options and configuration parameters | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | Pending deployment/configuration material |
+| Select deployment options and configuration parameters | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) covers deployment foundations; detailed model-selection and configuration practice pending |
 
 ### 3. Identify AI workloads
 
@@ -134,14 +134,14 @@ Gap clusters:
 
 - **Generative AI, prompts, and model configuration — pending**
 - **Agentic AI and single-agent solutions — pending**
-- **Foundry resources, projects, deployments, endpoints, and authentication — pending**
+- [**Foundry resources, projects, deployments, endpoints, and authentication — complete**](research/gaps/foundry-resources-projects-endpoints-authentication.md)
 - **Foundry SDK chat and agent clients — pending**
 - **Python SDK recognition for a C# developer — pending and cross-cutting**
 
 | Official subtopic | Official study links | Prepared asset |
 |---|---|---|
 | Create effective system and user prompts | [Prompts](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/6-writing-prompts) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | Pending prompt practice |
-| Deploy a model and interact with it in the Foundry portal | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | Pending portal/deployment workflow |
+| Deploy a model and interact with it in the Foundry portal | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) covers hierarchy, deployment, endpoint, and authentication foundations; detailed portal/model workflow pending |
 | Create a lightweight chat client with the Foundry SDK | [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | Pending Python/C# mapped client asset |
 | Create and test a single-agent solution in the Foundry portal | [AI agents](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents) · [Creating an agent](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/4-creating-an-agent) | Pending single-agent workflow |
 | Create a lightweight client application for an agent | [Creating an agent](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/4-creating-an-agent) | Pending Project API client asset |
@@ -203,13 +203,15 @@ Gap cluster: [**Information extraction and Content Understanding — complete**]
 
 These units support multiple implementation objectives and should not be treated as a separate exam domain.
 
-| Subtopic | Official study link | Gap status |
+Gap cluster: [**Foundry resources, projects, deployments, endpoints, and authentication — complete**](research/gaps/foundry-resources-projects-endpoints-authentication.md)
+
+| Subtopic | Official study link | Prepared asset and remaining work |
 |---|---|---|
-| Azure tenants, subscriptions, resource groups, and resources | [Understand Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/2-what-is-azure) | Foundry resource/authentication gap pending |
-| AI application infrastructure, security, hosting, and data | [Developing AI apps on Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/3-develop-ai-apps) | Foundry resource/authentication gap pending |
-| Foundry resources, projects, models, tools, agents, and knowledge | [Microsoft Foundry for AI](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/4-microsoft-foundry) | Foundry resource/authentication gap pending |
-| Endpoints, keys, Entra ID, and clients | [Using Microsoft Foundry endpoints](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/5-endpoints) | Foundry resource/authentication and SDK gaps pending |
-| End-to-end portal exercise | [Get started with Microsoft Foundry](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/6-exercise) | Foundry resource/authentication gap pending |
+| Azure tenants, subscriptions, resource groups, and resources | [Understand Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/2-what-is-azure) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) |
+| AI application infrastructure, security, hosting, and data | [Developing AI apps on Azure](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/3-develop-ai-apps) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) covers identity and secret safety at recognition level |
+| Foundry resources, projects, models, tools, agents, and knowledge | [Microsoft Foundry for AI](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/4-microsoft-foundry) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) |
+| Endpoints, keys, Entra ID, and clients | [Using Microsoft Foundry endpoints](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/5-endpoints) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md); detailed chat and agent client gap pending |
+| End-to-end portal exercise | [Get started with Microsoft Foundry](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/6-exercise) | Foundation scenario and code-recognition practice complete; official exercise remains part of the later study module |
 
 # Gap-research production map
 
@@ -224,8 +226,8 @@ The official map defines what must be covered. Gap research strengthens the offi
 | 5 | Speech recognition and synthesis | Speech concepts and implementation | **Complete** | [`research/gaps/speech-recognition-synthesis.md`](research/gaps/speech-recognition-synthesis.md) · [`docs/topics/speech.md`](docs/topics/speech.md) |
 | 6 | Computer vision, OCR, multimodal input, and image generation | Vision concepts and implementation | **Complete** | [`research/gaps/computer-vision-image-generation.md`](research/gaps/computer-vision-image-generation.md) · [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md) |
 | 7 | Information extraction and Content Understanding | Extraction concepts and implementation | **Complete** | [`research/gaps/information-extraction-content-understanding.md`](research/gaps/information-extraction-content-understanding.md) · [`docs/topics/information-extraction.md`](docs/topics/information-extraction.md) |
-| 8 | Foundry resources, projects, deployments, endpoints, and authentication | Cross-cutting Foundry foundation | **Pending** | Gap and topic files not yet created |
-| 9 | Foundry SDK chat and agent clients | Chat client and agent client | **Pending** | Gap and topic files not yet created |
+| 8 | Foundry resources, projects, deployments, endpoints, and authentication | Cross-cutting Foundry foundation | **Complete** | [`research/gaps/foundry-resources-projects-endpoints-authentication.md`](research/gaps/foundry-resources-projects-endpoints-authentication.md) · [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) |
+| 9 | Foundry SDK chat and agent clients | Chat client and agent client | **Pending** | Cross-topic client asset not yet created |
 | 10 | Python SDK recognition for a C# developer | Cross-cutting code recognition | **Pending** | Cross-topic asset not yet created |
 
 # Maintenance rules
