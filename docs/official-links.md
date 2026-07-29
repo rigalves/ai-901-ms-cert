@@ -137,6 +137,13 @@ Verified **July 29, 2026**:
 - Extract information from audio and video: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/3-audio-video
 - Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/4-exercise
 
+## Responsible AI and model-concept documentation
+
+Verified **July 29, 2026**:
+
+- Microsoft Responsible AI principles and approach: https://www.microsoft.com/en-us/ai/principles-and-approach/
+- Responsible AI practices for Azure OpenAI in Foundry Models: https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/overview
+
 ## Speech documentation
 
 Verified **July 29, 2026**:
