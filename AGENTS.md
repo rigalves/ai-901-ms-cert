@@ -16,6 +16,7 @@ At the beginning of every study or research session, read only what is needed, i
 6. the current topic document, if it exists
 7. the matching file under `research/gaps/`, if it exists
 8. the current lab README, when relevant
+9. `ASSESSMENT-LOG.md`, during assessment or repair work
 
 Do not recursively read the entire repository unless the task genuinely requires it.
 
@@ -28,6 +29,14 @@ Do not recursively read the entire repository unless the task genuinely requires
 - `STATUS.md` alone owns confirmed learner progress. Creating links, summaries, gaps, questions, or labs never marks a module complete.
 - When the live study guide changes, update `STUDY-MAP.md` and `docs/official-links.md` together before continuing topic work.
 - When a gap or topic asset is created, link it from the matching objective rows and gap-production table.
+
+## Session continuity
+
+- `STATUS.md` must identify the current path and module.
+- When the exact unit is confirmed, record the last completed unit and the next unit there.
+- If the exact unit is unknown, confirm it at the beginning of the next study session before updating progress.
+- Never infer unit or module completion from opened links, prepared material, gap research, or elapsed time.
+- At the end of a study session, preserve the exact next action in `STATUS.md` when the learner confirms where they stopped.
 
 ## Freshness and source rules
 
@@ -110,7 +119,11 @@ Do not turn Python study into a general Python course. The user is a senior C# d
 
 ### Practice-assessment work
 
-Use results diagnostically. Classify errors, identify weak official objectives, and recommend targeted repair. Do not memorize answers.
+- Use results diagnostically. Classify errors, identify weak official objectives, and recommend targeted repair. Do not memorize answers.
+- Record attempts and missed or uncertain concepts in `ASSESSMENT-LOG.md`.
+- Map every diagnostic item to `STUDY-MAP.md`.
+- Record the concept or confusion, not copied certification-exam question text.
+- Add a repair action and retest status.
 
 ## Writing and repository updates
 
