@@ -46,9 +46,10 @@ For each mapped topic:
 3. Review the mapped exam-readiness gap file and prepared study assets when available.
 4. Complete the Microsoft module knowledge check.
 5. Use a topic-appropriate exit check when useful.
-6. Update `STATUS.md` only after completion is confirmed.
+6. Record the exact stopping point in `STATUS.md` when confirmed.
+7. Update module progress only after completion is confirmed.
 
-After the concepts path is complete, take the official AI-901 Practice Assessment as a baseline diagnostic.
+After the concepts path is complete, take the official AI-901 Practice Assessment as a baseline diagnostic and record it in [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md).
 
 ### Phase 2: Complete the Foundry implementation learning path
 
@@ -62,7 +63,8 @@ For each mapped module:
 4. Map the workflow to familiar C# concepts when useful.
 5. Explain the end-to-end flow without relying on copied text.
 6. Keep a minimal working lab only when it adds exam value.
-7. Update `STATUS.md` only after completion is confirmed.
+7. Record the exact stopping point in `STATUS.md` when confirmed.
+8. Update module progress only after completion is confirmed.
 
 Core workflow to recognize:
 
@@ -70,9 +72,9 @@ Core workflow to recognize:
 
 ### Phase 3: Diagnose and repair
 
-Use the official Practice Assessment and trustworthy original practice questions.
+Use the official Practice Assessment and trustworthy original practice questions. Persist results in [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md).
 
-For each missed item:
+For each missed or uncertain item:
 
 1. Map it back to an objective row in `STUDY-MAP.md`.
 2. Identify whether the problem was:
@@ -80,12 +82,13 @@ For each missed item:
    - confusion between similar Microsoft services or capabilities
    - unfamiliar portal or SDK workflow
    - misreading the scenario or code
-3. Repair the matching official objective.
-4. Retest with new questions.
+3. Record the underlying concept or confusion without copying certification-exam question text.
+4. Repair the matching official objective.
+5. Retest with a new question and record the result.
 
 ### Phase 4: Final readiness
 
-Use mixed scenario questions, service comparisons, short code-reading exercises, and focused review of weak objective rows.
+Use mixed scenario questions, service comparisons, short code-reading exercises, and focused review of weak objective rows recorded in `ASSESSMENT-LOG.md`.
 
 A practical readiness signal is:
 
@@ -94,6 +97,7 @@ A practical readiness signal is:
 - short Python SDK snippets no longer cause confusion
 - recent mixed assessments are consistently strong without answer memorization
 - no major unresolved exam-readiness gaps remain
+- no unresolved high-impact weak objectives remain in `ASSESSMENT-LOG.md`
 
 Any score threshold used for readiness is a study heuristic, not a conversion of Microsoft’s scaled passing score.
 
@@ -101,11 +105,11 @@ Any score threshold used for readiness is a study heuristic, not a conversion of
 
 Do not force every session into one generic flow.
 
-- **Concept study session:** mapped objective → prepared official summary → distinctions/scenarios → knowledge check.
-- **Implementation study session:** mapped objective → exercise/lab → code reading → workflow explanation.
+- **Concept study session:** mapped objective → prepared official summary → distinctions/scenarios → knowledge check → confirmed next unit.
+- **Implementation study session:** mapped objective → exercise/lab → code reading → workflow explanation → confirmed next unit.
 - **Gap-research session:** next pending mapped cluster → independent research → reusable repository assets → map update. Do not quiz the user, wait for answers, or assess mastery.
-- **Assessment session:** timed questions → objective mapping → error analysis → targeted repair.
-- **Review session:** mixed recall, scenario selection, and weak-area drills.
+- **Assessment session:** timed questions → objective mapping → persistent error log → targeted repair.
+- **Review session:** mixed recall, scenario selection, and weak-area drills from the assessment log.
 
 Gap-research sessions prepare future study sessions and do not count as completed Learn modules or demonstrated learner progress.
 
