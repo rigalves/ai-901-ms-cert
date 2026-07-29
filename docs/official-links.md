@@ -17,7 +17,7 @@ Verified **July 29, 2026**:
 
 - AI-901 exam page: https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/
 - AI-901 study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901
-- Practice Assessment entry point: https://aiskillsnavigator.microsoft.com/
+- Practice Assessment: https://aiskillsnavigator.microsoft.com/credentials/cert-83587e0a0754cfee561ade3e27d9fa1cdaf15ae03be52d2413b2b858d1b4eda4
 - Microsoft certification exam experience: https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience
 
 ## Official learning paths
@@ -86,7 +86,7 @@ Verified **July 29, 2026**:
 
 Verified **July 29, 2026**:
 
-- Learning path: https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
+- Learning path: https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/
 
 #### Get started with AI in Azure
 
