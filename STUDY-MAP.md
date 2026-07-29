@@ -37,13 +37,13 @@ The objective bullets are illustrative rather than exhaustive. Related topics an
 
 ## Current route
 
-1. Finish **Introduction to AI speech concepts** using the official module and [`docs/topics/speech.md`](docs/topics/speech.md).
-2. Study **Introduction to computer vision concepts** using [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
-3. Study **Introduction to AI-powered information extraction concepts** using [`docs/topics/information-extraction.md`](docs/topics/information-extraction.md).
-4. Take the [official Practice Assessment](https://aiskillsnavigator.microsoft.com/credentials/cert-83587e0a0754cfee561ade3e27d9fa1cdaf15ae03be52d2413b2b858d1b4eda4) as the first baseline diagnostic after completing the concepts path, and record results in [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md).
-5. Complete the six-module Foundry implementation path in order, using the mapped gap and topic assets as they become available.
+1. Continue **Introduction to computer vision concepts** in the official module order, using [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
+2. Study **Introduction to AI-powered information extraction concepts** using [`docs/topics/information-extraction.md`](docs/topics/information-extraction.md).
+3. Take the [official Practice Assessment](https://aiskillsnavigator.microsoft.com/credentials/cert-83587e0a0754cfee561ade3e27d9fa1cdaf15ae03be52d2413b2b858d1b4eda4) as the first baseline diagnostic after completing the concepts path, and record results in [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md).
+4. Complete the six-module Foundry implementation path in order, using the mapped gap and topic assets as they become available.
+5. Revisit completed topics when the user requests review or diagnostic evidence identifies a weakness.
 
-Gap-research production does not change learner status.
+The learner follows the official Microsoft Learn sequence by default. Completed topics have handwritten notes and may be revisited without changing their completion status. Gap-research production does not change learner status.
 
 ## Official learning sequence
 
@@ -54,8 +54,8 @@ Gap-research production does not change learner status.
 | 1 | [Introduction to AI concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/) | AI workload overview and responsible AI | Topic file pending | Responsible AI/model gap pending | **Completed** |
 | 2 | [Introduction to generative AI and agents](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) | LLMs, prompts, agents | Topic file pending | Generative/model and agent gaps pending | **Completed** |
 | 3 | [Introduction to natural language processing concepts](https://learn.microsoft.com/en-us/training/modules/introduction-language/) | Tokenization, statistical analysis, semantic models | Topic file pending | Text analysis gap pending | **Completed** |
-| 4 | [Introduction to AI speech concepts](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) | Recognition, synthesis, speech-enabled solutions | [`docs/topics/speech.md`](docs/topics/speech.md) | [Gap complete](research/gaps/speech-recognition-synthesis.md) | **In progress** |
-| 5 | [Introduction to computer vision concepts](https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/) | Vision tasks, CNNs, ViTs, multimodal models, image generation | [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md) | [Gap complete](research/gaps/computer-vision-image-generation.md) | **Not started** |
+| 4 | [Introduction to AI speech concepts](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) | Recognition, synthesis, speech-enabled solutions | [`docs/topics/speech.md`](docs/topics/speech.md) | [Gap complete](research/gaps/speech-recognition-synthesis.md) | **Completed** |
+| 5 | [Introduction to computer vision concepts](https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/) | Vision tasks, CNNs, ViTs, multimodal models, image generation | [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md) | [Gap complete](research/gaps/computer-vision-image-generation.md) | **In progress** |
 | 6 | [Introduction to AI-powered information extraction concepts](https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/) | OCR, fields, mapping, extraction approaches | [`docs/topics/information-extraction.md`](docs/topics/information-extraction.md) | [Gap complete](research/gaps/information-extraction-content-understanding.md) | **Not started** |
 
 ### Phase 2 — Foundry implementation path
