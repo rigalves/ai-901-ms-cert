@@ -34,8 +34,8 @@ Complete the remaining concept modules using current Microsoft Learn pages.
 For each topic:
 
 1. Verify the official objective and current Learn page.
-2. Generate a concise official-source summary.
-3. Review the existing exam-readiness gap file, when available.
+2. Use the prepared concise official-source summary.
+3. Review the existing exam-readiness gap file and its prepared study assets, when available.
 4. Complete the Microsoft module knowledge check.
 5. Use a topic-appropriate exit check when useful.
 
@@ -49,7 +49,7 @@ For each module:
 
 1. Preview the official objective.
 2. Complete the current Microsoft Learn exercise.
-3. Inspect the Python SDK example.
+3. Inspect the prepared Python SDK example.
 4. Map the workflow to familiar C# concepts when useful.
 5. Explain the end-to-end flow without relying on copied text.
 6. Keep a minimal working lab only when it adds exam value.
@@ -89,11 +89,13 @@ Any score threshold used for readiness is a study heuristic, not a conversion of
 
 Do not force every session into one generic flow.
 
-- **Concept session:** official page → concise summary → distinctions/scenarios → knowledge check.
-- **Implementation session:** objective preview → exercise/lab → code reading → workflow explanation.
-- **Gap-research session:** separate investigation described in `research/gap-research-plan.md`.
+- **Concept study session:** prepared official summary → distinctions/scenarios → knowledge check.
+- **Implementation study session:** objective preview → exercise/lab → code reading → workflow explanation.
+- **Gap-research session:** independently research gaps and produce or update reusable repository material for later study. Do not quiz the user, wait for answers, or assess mastery.
 - **Assessment session:** timed questions → error analysis → targeted repair.
 - **Review session:** mixed recall, scenario selection, and weak-area drills.
+
+Gap-research sessions prepare future study sessions and do not count as completed Learn modules or demonstrated learner progress.
 
 ## Labs
 
