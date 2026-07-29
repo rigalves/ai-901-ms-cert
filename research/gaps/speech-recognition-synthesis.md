@@ -47,12 +47,7 @@ The main weakness is alignment across the separate implementation objectives. Th
 - **Evidence:** The blueprint separately names a deployed multimodal model and Azure Speech in Foundry Tools. The speech module then introduces Voice Live as another speech-capable agent route.
 - **Confidence:** High
 - **Why it matters:** These approaches overlap in user experience but use different resources, clients, and request flows. Treating them as synonyms can cause service-selection and workflow errors.
-- **Recommended preparation:** Create a one-page comparison with three rows:
-  1. Azure Speech speech-to-text and text-to-speech
-  2. Azure Speech Voice Live
-  3. deployed GPT audio or realtime multimodal model
-
-For each row, identify the input, output, Azure resource or deployment, portal playground, client package, and best-fit scenario.
+- **Study material needed:** A one-page comparison covering Azure Speech STT/TTS, Voice Live, and a deployed GPT audio or realtime multimodal model. For each path, identify input, output, Azure setup, playground, client/API, best-fit scenario, and common confusion.
 
 ### The official exercise does not practice the standalone Speech SDK flow
 
@@ -60,11 +55,13 @@ For each row, identify the input, output, Azure resource or deployment, portal p
 - **Evidence:** The implementation lesson contains Python examples for recognition and synthesis, but its exercise is centered on creating a Voice Live speech-capable agent.
 - **Confidence:** High
 - **Why it matters:** The blueprint explicitly includes building a lightweight application with Azure Speech. Reading example code is weaker preparation than tracing or running the complete client flow.
-- **Recommended preparation:** Run or carefully trace two minimal scripts:
+- **Study material needed:** Two minimal flows for later study:
   - microphone or audio file → `SpeechRecognizer` → text
   - text → `SpeechSynthesizer` → speaker or audio file
 
-Be able to explain the flow as `resource credentials → SpeechConfig → audio configuration → recognizer or synthesizer → async operation → result`.
+The prepared explanation should preserve this flow:
+
+`resource credentials → SpeechConfig → audio configuration → recognizer or synthesizer → async operation → result`
 
 ### Authentication and constructor examples use more than one shape
 
@@ -72,7 +69,7 @@ Be able to explain the flow as `resource credentials → SpeechConfig → audio 
 - **Evidence:** Current material shows endpoint-and-key configuration, while Speech documentation and quickstarts also commonly use key-and-region or Microsoft Entra ID.
 - **Confidence:** Medium
 - **Why it matters:** A code question may use a valid setup that looks different from the one example memorized from Learn.
-- **Recommended preparation:** Recognize the purpose of `SpeechConfig` rather than memorizing one constructor. Know that the client needs a Speech resource identity and location or endpoint, supplied through a key, token, or supported credential flow.
+- **Study material needed:** Explain the purpose of `SpeechConfig` rather than teaching one constructor by rote. Show that the client needs a Speech resource identity and location or endpoint, supplied through a key, token, or supported credential flow.
 
 ### Scenario and code-recognition practice is thinner than the teaching content
 
@@ -80,7 +77,7 @@ Be able to explain the flow as `resource credentials → SpeechConfig → audio 
 - **Evidence:** The official modules explain the features and show code, but provide little visible practice distinguishing recognition, synthesis, real-time transcription, batch transcription, Voice Live, and audio-capable model scenarios.
 - **Confidence:** High
 - **Why it matters:** AI-901 requires Python familiarity and SDK recognition, and the exam does not provide Microsoft Learn access during a fundamentals exam.
-- **Recommended preparation:** Add five original scenario questions and five short code-completion questions. Focus on selecting the correct class, audio configuration, operation, and service route—not on memorizing long scripts.
+- **Study material needed:** Five original scenario questions and five short code-completion questions with an answer key. Focus on selecting the correct class, audio configuration, operation, and service route—not on memorizing long scripts.
 
 ### External reports are too limited to estimate speech question frequency
 
@@ -88,20 +85,21 @@ Be able to explain the flow as `resource credentials → SpeechConfig → audio 
 - **Evidence:** One dated beta-exam account reported needing to distinguish recognition from synthesis, audio from speech, and understand Python SDK usage. No strong independent corroboration was found for the frequency or exact form of speech questions.
 - **Confidence:** Low
 - **Why it matters:** The report supports the official preparation direction, but it cannot justify claims such as “speech is heavily tested.”
-- **Recommended preparation:** Use the report only as a reason to practice official objectives, not to change topic weighting.
+- **Study material needed:** No separate asset. Use this evidence only to support practicing official objectives, not to change topic weighting.
 
-## Preparation assets created
+## Study-session assets created
 
 Created **July 29, 2026**:
 
 - [`../../docs/topics/speech.md`](../../docs/topics/speech.md)
   - three-way comparison of Azure Speech STT/TTS, Voice Live, and deployed audio-capable models
   - minimal Python recognition and synthesis flows
+  - C# mental mappings
   - five original scenario questions
   - five original Python code-recognition questions
-  - answer key and no-notes exit check
+  - answer key and future study-session exit check
 
-**Remediation status:** The missing study assets now exist. The gap is not considered mastered or closed until the user completes the practice and exit check.
+**Research status:** Complete. The identified missing study assets now exist and are linked. Learner understanding is intentionally not evaluated during a gap-research session.
 
 ## Claims not accepted
 
@@ -111,15 +109,17 @@ Created **July 29, 2026**:
 - Deep study of custom voice, advanced SSML, telephony, or speech translation is required for AI-901 without further assessment evidence.
 - Any dump-derived claim about real exam questions.
 
-## Practical exit criteria
+## Suggested future study checkpoint
 
-This gap is adequately addressed when the user can:
+Use the prepared checkpoint in `docs/topics/speech.md` during a later study or review session. That session may evaluate whether the learner can:
 
 1. Explain recognition versus synthesis without notes.
 2. Select real-time versus batch transcription for a scenario.
 3. Trace the minimal Python SDK flow for both recognition and synthesis.
 4. Distinguish Azure Speech, Voice Live, and a deployed multimodal audio model.
 5. Answer short scenario and code-recognition questions without relying on copied scripts.
+
+This checkpoint is stored here as a handoff. It is not administered during gap research.
 
 ## External evidence reviewed
 
