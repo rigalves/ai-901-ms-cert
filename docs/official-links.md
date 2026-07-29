@@ -170,6 +170,16 @@ Verified **July 29, 2026**:
 - Select Content Understanding, Document Intelligence, or a model-based approach: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool
 - Azure Document Intelligence overview: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview
 
+## Microsoft Foundry foundation documentation
+
+Verified **July 29, 2026**:
+
+- Authentication and authorization: https://learn.microsoft.com/en-us/azure/foundry/concepts/authentication-authorization-foundry
+- Role-based access control: https://learn.microsoft.com/en-us/azure/foundry/concepts/rbac-foundry
+- Foundry SDKs and endpoint selection: https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview
+- Foundry model deployments and endpoints: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints
+- Managed compute and deployment-type overview: https://learn.microsoft.com/en-us/azure/foundry/concepts/managed-compute-overview
+
 ## Remaining documentation inventory
 
 The exact Microsoft Learn module and unit URLs for the complete official curriculum are now verified. Product documentation beyond Learn remains intentionally topic-driven: add supporting documentation during the matching gap-research or study session only after opening and verifying it.
