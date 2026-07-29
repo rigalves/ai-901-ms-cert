@@ -16,5 +16,3 @@ Before copying any claim into a topic summary or gap-research file:
 1. verify the current AI-901 blueprint;
 2. verify the relevant live Microsoft documentation;
 3. re-check external evidence when the claim is about candidate experience or exam emphasis.
-
-The original uploaded report used to initialize this archive is also available in the originating ChatGPT conversation. fileciteturn2file0
