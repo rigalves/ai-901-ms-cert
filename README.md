@@ -9,6 +9,7 @@ This repository is the source of truth for:
 - links to current official Microsoft Learn and Microsoft documentation pages
 - topic summaries generated from live official sources
 - separate exam-readiness gap research
+- assessment diagnostics and targeted repair
 - a few minimal, exam-relevant labs
 
 The target exam date is approximately **August 31, 2026**. The weekly study target is **five flexible one-hour sessions**, with no fixed weekdays.
@@ -26,13 +27,15 @@ Agents and study assistants must read these files in order:
 5. [`docs/official-links.md`](docs/official-links.md)
 6. the current topic document
 7. the matching gap-research document, when one exists
+8. [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md), during assessment or repair work
 
 ## Document responsibilities
 
 - [`STUDY-MAP.md`](STUDY-MAP.md): what must be studied, exact official links, mapped gaps/assets, and recommended route.
-- [`STATUS.md`](STATUS.md): confirmed learner progress only.
+- [`STATUS.md`](STATUS.md): confirmed learner progress and exact current study position.
 - [`PLAN.md`](PLAN.md): study strategy, phases, and session methods.
 - [`docs/official-links.md`](docs/official-links.md): verified official-source inventory.
+- [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md): practice-assessment attempts, objective-mapped errors, repair actions, and retest status.
 - `docs/topics/`: reusable material for study sessions.
 - `research/gaps/`: evidence and preparation assets for exam-readiness gaps.
 
@@ -52,6 +55,7 @@ Agents and study assistants must read these files in order:
 ├── STUDY-MAP.md
 ├── PLAN.md
 ├── STATUS.md
+├── ASSESSMENT-LOG.md
 ├── docs/
 │   ├── official-links.md
 │   └── topics/
