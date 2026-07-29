@@ -9,6 +9,7 @@ This file is the verified index of official Microsoft sources used by the study 
 - Never invent a Microsoft Learn slug or retain a link only because it existed in an older summary.
 - When Microsoft redirects a page, store the final canonical URL.
 - Topic documents should link directly to the exact unit or documentation page used, not only to a broad learning-path landing page.
+- [`../STUDY-MAP.md`](../STUDY-MAP.md) maps these links to every official exam objective and repository asset.
 
 ## Core official pages
 
@@ -23,24 +24,39 @@ Verified **July 29, 2026**:
 
 ### AI concepts for developers and technology professionals
 
-Verified learning path:
+Verified **July 29, 2026**:
 
-- https://learn.microsoft.com/en-us/training/paths/ai-concepts/
+- Learning path: https://learn.microsoft.com/en-us/training/paths/ai-concepts/
 
-Current modules expected from the path:
+#### Introduction to AI concepts
 
-- Introduction to AI concepts
-- Introduction to generative AI and agents
-- Introduction to natural language processing concepts
-- Introduction to AI speech concepts
-- Introduction to computer vision concepts
-- Introduction to AI-powered information extraction concepts
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
+- Introduction to AI: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/1-introduction
+- Generative AI and agents: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/2-generative-ai
+- Text and natural language: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/5-natural-language-processing
+- Speech: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/4-speech
+- Computer vision: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/3-computer-vision
+- Information extraction: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/6-extract-insights
+- Responsible AI: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7b-exercise
 
-The speech, computer vision, and information extraction modules and units below were individually verified. The other exact module and unit URLs remain pending.
+#### Introduction to generative AI and agents
+
+- Module: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/
+- Large language models: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models
+- Prompts: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/6-writing-prompts
+- AI agents: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents
+- Exercise: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7a-exercise
+
+#### Introduction to natural language processing concepts
+
+- Module: https://learn.microsoft.com/en-us/training/modules/introduction-language/
+- Tokenization: https://learn.microsoft.com/en-us/training/modules/introduction-language/2-how-it-works
+- Statistical text analysis: https://learn.microsoft.com/en-us/training/modules/introduction-language/3-statistical-techniques
+- Semantic language models: https://learn.microsoft.com/en-us/training/modules/introduction-language/4-semantic-models
+- Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-language/4b-exercise
 
 #### Speech concepts
-
-Verified **July 29, 2026**:
 
 - Module: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/
 - Speech-enabled solutions: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/2-speech-enabled-solutions
@@ -49,8 +65,6 @@ Verified **July 29, 2026**:
 - Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/5-exercise-speech
 
 #### Computer vision concepts
-
-Verified **July 29, 2026**:
 
 - Module: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
 - Computer vision tasks and techniques: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/2-overview
@@ -62,8 +76,6 @@ Verified **July 29, 2026**:
 
 #### Information extraction concepts
 
-Verified **July 29, 2026**:
-
 - Module: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/
 - Information extraction overview: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/2-overview
 - Optical character recognition: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/3-vision-extraction
@@ -72,24 +84,37 @@ Verified **July 29, 2026**:
 
 ### Get started with AI applications and agents on Azure
 
-Verified learning path:
+Verified **July 29, 2026**:
 
-- https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
+- Learning path: https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
 
-Current modules expected from the path:
+#### Get started with AI in Azure
 
-- Get started with AI in Azure
-- Get started with generative AI and agents in Azure
-- Get started with text analysis in Azure
-- Get started with speech in Azure
-- Get started with computer vision in Azure
-- Get started with AI-powered information extraction in Azure
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/
+- Introduction: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/1-introduction
+- Understand Azure: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/2-what-is-azure
+- Developing AI apps on Azure: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/3-develop-ai-apps
+- Microsoft Foundry for AI: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/4-microsoft-foundry
+- Using Microsoft Foundry endpoints: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/5-endpoints
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/6-exercise
 
-The speech, computer vision, and information extraction modules and units below were individually verified. The other exact module and unit URLs remain pending.
+#### Get started with generative AI and agents in Azure
+
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/
+- Generative AI models: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models
+- Using a generative AI model: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models
+- Creating an agent: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/4-creating-an-agent
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/6-exercise
+
+#### Get started with text analysis in Azure
+
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/
+- Understand text analysis in Foundry: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/2-azure-language
+- Create a client application that analyzes text: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/3-language-sdk
+- Use Azure Language with an agent: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/4-language-mcp
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/5-exercise
 
 #### Speech implementation
-
-Verified **July 29, 2026**:
 
 - Module: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/
 - Speech recognition: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/2-speech-recognition
@@ -99,8 +124,6 @@ Verified **July 29, 2026**:
 
 #### Computer vision implementation
 
-Verified **July 29, 2026**:
-
 - Module: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/
 - Multimodal models for image analysis: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/2-vision-enabled-models
 - Image generation models: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/3-image-generation
@@ -108,8 +131,6 @@ Verified **July 29, 2026**:
 - Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/5-exercise
 
 #### Information extraction implementation
-
-Verified **July 29, 2026**:
 
 - Module: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/
 - Extract information from documents: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/2-documents
@@ -149,6 +170,6 @@ Verified **July 29, 2026**:
 - Select Content Understanding, Document Intelligence, or a model-based approach: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool
 - Azure Document Intelligence overview: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview
 
-## Pending inventory work
+## Remaining documentation inventory
 
-The exact module and unit URLs for topics other than speech, computer vision, and information extraction still require live verification. Add them topic by topic during study or gap-research sessions; do not guess them in advance.
+The exact Microsoft Learn module and unit URLs for the complete official curriculum are now verified. Product documentation beyond Learn remains intentionally topic-driven: add supporting documentation during the matching gap-research or study session only after opening and verifying it.
