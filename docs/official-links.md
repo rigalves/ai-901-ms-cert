@@ -36,7 +36,7 @@ Current modules expected from the path:
 - Introduction to computer vision concepts
 - Introduction to AI-powered information extraction concepts
 
-The speech and computer vision modules and units below were individually verified. The other exact module and unit URLs remain pending.
+The speech, computer vision, and information extraction modules and units below were individually verified. The other exact module and unit URLs remain pending.
 
 #### Speech concepts
 
@@ -60,6 +60,16 @@ Verified **July 29, 2026**:
 - Image generation: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5a-generate-images
 - Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5b-exercise
 
+#### Information extraction concepts
+
+Verified **July 29, 2026**:
+
+- Module: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/
+- Information extraction overview: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/2-overview
+- Optical character recognition: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/3-vision-extraction
+- Field extraction and mapping: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/4-form-extraction
+- Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise
+
 ### Get started with AI applications and agents on Azure
 
 Verified learning path:
@@ -75,7 +85,7 @@ Current modules expected from the path:
 - Get started with computer vision in Azure
 - Get started with AI-powered information extraction in Azure
 
-The speech and computer vision modules and units below were individually verified. The other exact module and unit URLs remain pending.
+The speech, computer vision, and information extraction modules and units below were individually verified. The other exact module and unit URLs remain pending.
 
 #### Speech implementation
 
@@ -96,6 +106,15 @@ Verified **July 29, 2026**:
 - Image generation models: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/3-image-generation
 - Video generation models: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/4-video-generation
 - Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/5-exercise
+
+#### Information extraction implementation
+
+Verified **July 29, 2026**:
+
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/
+- Extract information from documents: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/2-documents
+- Extract information from audio and video: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/3-audio-video
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/4-exercise
 
 ## Speech documentation
 
@@ -120,6 +139,16 @@ Verified **July 29, 2026**:
 - Image Analysis migration options: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/migration-options
 - Select Content Understanding, Document Intelligence, or a model-based approach: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool
 
+## Information extraction documentation
+
+Verified **July 29, 2026**:
+
+- Azure Content Understanding overview: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/overview
+- Content Understanding REST quickstart: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/quickstart/use-rest-api
+- Content Understanding Python SDK overview: https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentunderstanding-readme?view=azure-python
+- Select Content Understanding, Document Intelligence, or a model-based approach: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool
+- Azure Document Intelligence overview: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview
+
 ## Pending inventory work
 
-The exact module and unit URLs for topics other than speech and computer vision still require live verification. Add them topic by topic during study or gap-research sessions; do not guess them in advance.
+The exact module and unit URLs for topics other than speech, computer vision, and information extraction still require live verification. Add them topic by topic during study or gap-research sessions; do not guess them in advance.
