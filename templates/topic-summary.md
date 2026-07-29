@@ -28,20 +28,22 @@ For every accepted gap include:
 
 - gap type
 - confidence
-- practical preparation action
+- study material created or still needed
 
-## Checkpoint
+## Prepared study checkpoint
 
-Choose a checkpoint appropriate to the topic rather than applying a generic quiz to everything.
+Store a checkpoint appropriate to the topic for use during a later concept, implementation, review, or assessment session.
 
 Examples:
 
-- scenario-selection questions
-- explain-without-notes prompt
+- scenario-selection questions with an answer key
+- explain-without-notes prompts
 - service comparison
 - portal/workflow reconstruction
 - short Python code-reading exercise
 - minimal lab
+
+When this document is being created during gap research, do not administer the checkpoint or ask the user to answer it. The research session only prepares and stores the material.
 
 ## Official sources
 
@@ -55,4 +57,5 @@ List only sources already accepted in the matching gap-research file.
 
 - Verified on:
 - Official blueprint checked on:
-- Topic status:
+- Research material status:
+- Study-session status:
