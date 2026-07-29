@@ -16,9 +16,10 @@ Last confirmed from conversation: **July 29, 2026**.
 - Current module: **Introduction to computer vision concepts**
 - Current module status: **in progress**
 - Current module page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
-- Exact current unit: **Introduction**
-- Current unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/1-introduction
-- Next unit: **Computer vision tasks and techniques**
+- Last completed unit: **Introduction**
+- Exact current unit: **Computer vision tasks and techniques**
+- Current unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/2-overview
+- Next unit: **Images and image processing**
 - Remaining after current module: **Introduction to AI-powered information extraction concepts**
 - Study order: following the official Microsoft Learn path in sequence
 - Paper notes: completed for the four finished concept modules
@@ -47,11 +48,11 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Begin **Introduction to computer vision concepts** from the top. Complete the **Introduction** unit, then continue to **Computer vision tasks and techniques**, using the mapped official units and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
+Continue **Introduction to computer vision concepts** with **Computer vision tasks and techniques**, using the mapped official unit and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
 
 During the current study session:
 
-1. Complete the Introduction unit.
+1. Complete Computer vision tasks and techniques.
 2. Continue through the official module order.
 3. Preserve the exact stopping point here when confirmed.
 4. Revisit an earlier topic only when requested or supported by diagnostic evidence.
