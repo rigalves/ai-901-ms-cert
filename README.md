@@ -4,7 +4,8 @@ A small, evidence-driven study system for Microsoft Azure AI Fundamentals (AI-90
 
 This repository is the source of truth for:
 
-- the study plan and current progress
+- the complete official-objective study map
+- the study strategy and current progress
 - links to current official Microsoft Learn and Microsoft documentation pages
 - topic summaries generated from live official sources
 - separate exam-readiness gap research
@@ -14,14 +15,26 @@ The target exam date is approximately **August 31, 2026**. The weekly study targ
 
 ## Start here
 
+[`STUDY-MAP.md`](STUDY-MAP.md) is the actionable curriculum map. It connects every current official AI-901 objective to its exact Microsoft Learn material, gap-research status, prepared repository assets, and learner status.
+
 Agents and study assistants must read these files in order:
 
 1. [`AGENTS.md`](AGENTS.md)
-2. [`STATUS.md`](STATUS.md)
-3. [`PLAN.md`](PLAN.md)
-4. [`docs/official-links.md`](docs/official-links.md)
-5. the current topic document
-6. the matching gap-research document, when one exists
+2. [`STUDY-MAP.md`](STUDY-MAP.md)
+3. [`STATUS.md`](STATUS.md)
+4. [`PLAN.md`](PLAN.md)
+5. [`docs/official-links.md`](docs/official-links.md)
+6. the current topic document
+7. the matching gap-research document, when one exists
+
+## Document responsibilities
+
+- [`STUDY-MAP.md`](STUDY-MAP.md): what must be studied, exact official links, mapped gaps/assets, and recommended route.
+- [`STATUS.md`](STATUS.md): confirmed learner progress only.
+- [`PLAN.md`](PLAN.md): study strategy, phases, and session methods.
+- [`docs/official-links.md`](docs/official-links.md): verified official-source inventory.
+- `docs/topics/`: reusable material for study sessions.
+- `research/gaps/`: evidence and preparation assets for exam-readiness gaps.
 
 ## Source hierarchy
 
@@ -36,6 +49,7 @@ Agents and study assistants must read these files in order:
 ```text
 .
 ├── AGENTS.md
+├── STUDY-MAP.md
 ├── PLAN.md
 ├── STATUS.md
 ├── docs/
