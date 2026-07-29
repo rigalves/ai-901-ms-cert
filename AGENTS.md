@@ -48,11 +48,28 @@ Every topic document must keep these sections separate:
 - Must include a confidence level and a practical preparation action.
 - If no gap research exists, mark the section as pending. Do not block the official study session.
 
+## Gap-research session boundary
+
+A gap-research session exists to prepare reusable repository material for later study sessions.
+
+During a gap-research session:
+
+- Work independently from current, verified sources.
+- Identify and classify exam-readiness gaps.
+- Create or update the gap file and the study documents needed to address those gaps.
+- It is acceptable to create comparison tables, scenarios, questions, answer keys, code-recognition exercises, checkpoints, or minimal lab instructions.
+- Store those learning activities for a future concept, implementation, review, or assessment session.
+- Do not administer the questions, ask the user to explain the material, wait for answers, assign homework, or evaluate mastery.
+- Do not update `STATUS.md` or infer Microsoft Learn progress from research work.
+- Finish by reporting the documents and repository changes that were produced.
+
+A gap-research session is complete when the evidence has been evaluated and the reusable study-session assets have been written and linked. Learner mastery is outside its scope.
+
 ## Session behavior
 
 The session method depends on the topic.
 
-### Concept topics
+### Concept study sessions
 
 Emphasize:
 
@@ -64,7 +81,7 @@ Emphasize:
 
 A useful exit check may include scenario questions, distinctions, or an explain-without-notes prompt.
 
-### Implementation topics
+### Implementation study sessions
 
 Emphasize:
 
@@ -87,6 +104,6 @@ Use results diagnostically. Classify errors, identify weak official objectives, 
 - Keep summaries concise enough to be handwritten.
 - Do not create long transcripts of Microsoft Learn pages.
 - Preserve useful Microsoft examples, distinctions, decision rules, and workflows.
-- Update `STATUS.md` only from confirmed user progress or completed work.
+- Update `STATUS.md` only from confirmed user progress or completed study work.
 - The AI recommends the next topic, but the user makes the final choice.
 - Keep labs minimal and exam-relevant. Do not duplicate full C# and Python implementations without a clear learning benefit.
