@@ -9,14 +9,25 @@ Help the user prepare for AI-901 using the repository as the continuity and prog
 At the beginning of every study or research session, read only what is needed, in this order:
 
 1. `AGENTS.md`
-2. `STATUS.md`
-3. `PLAN.md`
-4. `docs/official-links.md`
-5. the current topic document, if it exists
-6. the matching file under `research/gaps/`, if it exists
-7. the current lab README, when relevant
+2. `STUDY-MAP.md`
+3. `STATUS.md`
+4. `PLAN.md`
+5. `docs/official-links.md`
+6. the current topic document, if it exists
+7. the matching file under `research/gaps/`, if it exists
+8. the current lab README, when relevant
 
 Do not recursively read the entire repository unless the task genuinely requires it.
+
+## Study-map rules
+
+- `STUDY-MAP.md` is the operational navigation source of truth.
+- Every study or gap-research session must identify the official objective row or rows it supports.
+- Do not invent a study sequence from memory when the map already defines the current route.
+- A topic is not fully mapped unless its official objective, exact current Learn material, gap status, prepared assets, and learner status are visible in the map.
+- `STATUS.md` alone owns confirmed learner progress. Creating links, summaries, gaps, questions, or labs never marks a module complete.
+- When the live study guide changes, update `STUDY-MAP.md` and `docs/official-links.md` together before continuing topic work.
+- When a gap or topic asset is created, link it from the matching objective rows and gap-production table.
 
 ## Freshness and source rules
 
@@ -54,6 +65,7 @@ A gap-research session exists to prepare reusable repository material for later 
 
 During a gap-research session:
 
+- Select the next pending cluster from the gap-production table in `STUDY-MAP.md`, unless the user names another mapped cluster.
 - Work independently from current, verified sources.
 - Identify and classify exam-readiness gaps.
 - Create or update the gap file and the study documents needed to address those gaps.
@@ -61,9 +73,10 @@ During a gap-research session:
 - Store those learning activities for a future concept, implementation, review, or assessment session.
 - Do not administer the questions, ask the user to explain the material, wait for answers, assign homework, or evaluate mastery.
 - Do not update `STATUS.md` or infer Microsoft Learn progress from research work.
+- Update the matching rows and gap-production status in `STUDY-MAP.md`.
 - Finish by reporting the documents and repository changes that were produced.
 
-A gap-research session is complete when the evidence has been evaluated and the reusable study-session assets have been written and linked. Learner mastery is outside its scope.
+A gap-research session is complete when the evidence has been evaluated, the reusable study-session assets have been written and linked, and the study map reflects the new assets. Learner mastery is outside its scope.
 
 ## Session behavior
 
@@ -105,5 +118,5 @@ Use results diagnostically. Classify errors, identify weak official objectives, 
 - Do not create long transcripts of Microsoft Learn pages.
 - Preserve useful Microsoft examples, distinctions, decision rules, and workflows.
 - Update `STATUS.md` only from confirmed user progress or completed study work.
-- The AI recommends the next topic, but the user makes the final choice.
+- The AI recommends the next topic from `STUDY-MAP.md`, but the user makes the final choice.
 - Keep labs minimal and exam-relevant. Do not duplicate full C# and Python implementations without a clear learning benefit.
