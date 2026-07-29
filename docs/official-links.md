@@ -36,7 +36,7 @@ Current modules expected from the path:
 - Introduction to computer vision concepts
 - Introduction to AI-powered information extraction concepts
 
-Only the speech module and units below were individually verified during the current research session. The other exact module and unit URLs remain pending.
+The speech and computer vision modules and units below were individually verified. The other exact module and unit URLs remain pending.
 
 #### Speech concepts
 
@@ -47,6 +47,18 @@ Verified **July 29, 2026**:
 - Speech recognition: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/3-speech-recognition
 - Speech synthesis: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/4-speech-synthesis
 - Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/5-exercise-speech
+
+#### Computer vision concepts
+
+Verified **July 29, 2026**:
+
+- Module: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
+- Computer vision tasks and techniques: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/2-overview
+- Images and image processing: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/3-understand-image-processing
+- Convolutional neural networks: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/4-computer-vision-models
+- Vision transformers and multimodal models: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5-modern-vision-models
+- Image generation: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5a-generate-images
+- Exercise: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5b-exercise
 
 ### Get started with AI applications and agents on Azure
 
@@ -63,7 +75,7 @@ Current modules expected from the path:
 - Get started with computer vision in Azure
 - Get started with AI-powered information extraction in Azure
 
-Only the speech module and units below were individually verified during the current research session. The other exact module and unit URLs remain pending.
+The speech and computer vision modules and units below were individually verified. The other exact module and unit URLs remain pending.
 
 #### Speech implementation
 
@@ -74,6 +86,16 @@ Verified **July 29, 2026**:
 - Speech synthesis: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/3-speech-synthesis
 - Voice Live: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/4-voice-live
 - Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/5-exercise
+
+#### Computer vision implementation
+
+Verified **July 29, 2026**:
+
+- Module: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/
+- Multimodal models for image analysis: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/2-vision-enabled-models
+- Image generation models: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/3-image-generation
+- Video generation models: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/4-video-generation
+- Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/5-exercise
 
 ## Speech documentation
 
@@ -87,6 +109,17 @@ Verified **July 29, 2026**:
 - GPT Realtime audio: https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/realtime-audio
 - Audio-enabled model quickstart: https://learn.microsoft.com/en-us/azure/foundry/openai/audio-completions-quickstart
 
+## Computer vision and image-generation documentation
+
+Verified **July 29, 2026**:
+
+- Responses API, including image input and image generation: https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses
+- Azure Vision documentation: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
+- OCR for images: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-ocr
+- Image Analysis overview and deprecation notice: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis
+- Image Analysis migration options: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/migration-options
+- Select Content Understanding, Document Intelligence, or a model-based approach: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool
+
 ## Pending inventory work
 
-The exact module and unit URLs for non-speech topics still require live verification. Add them topic by topic during study or gap-research sessions; do not guess them in advance.
+The exact module and unit URLs for topics other than speech and computer vision still require live verification. Add them topic by topic during study or gap-research sessions; do not guess them in advance.
