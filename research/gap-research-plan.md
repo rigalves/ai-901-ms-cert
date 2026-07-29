@@ -4,9 +4,34 @@
 
 Create short, topic-specific research files that identify where official Microsoft learning material may be too brief, too conceptual, difficult to translate into exam performance, or missing useful practice.
 
-Gap research is performed in separate sessions. Normal study sessions should use existing gap research rather than launching broad web research.
+Each gap-research session must also create or update the reusable documents needed by a later study session. The research session prepares the lesson; it does not conduct the lesson.
 
-## Boundary
+Normal study sessions should use this prepared material rather than launching broad web research.
+
+## Session boundary
+
+A gap-research session is a non-interactive repository-production session.
+
+It should:
+
+- research current evidence
+- classify accepted and rejected gaps
+- write or update the matching gap file
+- create or update the topic summary, comparison, practice set, checkpoint, or lab instructions needed for later study
+- include answer keys when it creates questions
+- link the resulting materials together
+
+It should not:
+
+- quiz the user
+- ask the user to explain the topic
+- wait for answers
+- assign work for completion inside the research session
+- assess learner mastery
+- update confirmed Learn progress
+- silently turn into a concept, implementation, review, or assessment session
+
+## Boundary of scope
 
 The current official AI-901 blueprint defines the scope. Gap research may improve depth, examples, practice, terminology awareness, or implementation readiness, but it must not expand into unrelated Azure AI topics.
 
@@ -56,7 +81,7 @@ Merge or split topics only when the official blueprint or current learning-path 
 
 ### 2. Evaluate the official teaching coverage
 
-Ask:
+Ask internally:
 
 - Does Learn explain only what the capability is, or also how to use it?
 - Are important implementation steps hidden in an exercise or linked quickstart?
@@ -64,6 +89,8 @@ Ask:
 - Does it show enough portal, SDK, authentication, request, and response flow for the official verbs?
 - Are commonly confused services or capabilities compared clearly?
 - Is practice provided for scenario selection or code recognition?
+
+These are research prompts for the agent, not questions for the user.
 
 ### 3. Research external evidence
 
@@ -96,18 +123,34 @@ Use one of these labels:
 - **Low:** one credible report, beta-era evidence, or uncertain current relevance.
 - **Rejected:** dump-derived, promotional, unverifiable, or outside official scope.
 
-### 6. Produce a practical action
+### 6. Produce the study-session assets
 
-Every accepted gap must end with a concrete study response, such as:
+Every accepted gap must produce a concrete repository response, such as:
 
-- read one current SDK quickstart
-- complete one specific Microsoft exercise
-- compare two services in a decision table
-- trace a portal-to-client workflow
-- read and modify one short Python snippet
-- answer five original scenario questions
+- a concise explanation based on current official sources
+- a service or capability decision table
+- a portal-to-client workflow
+- a short Python snippet with C# mental mapping
+- original scenario or code-recognition questions with an answer key
+- a small checkpoint for a future study session
+- minimal lab instructions tied to an official objective
 
-Do not recommend broad extra study without explaining the exact benefit.
+Create the asset during the research session whenever practical. Do not merely tell the user to create or complete it.
+
+Questions, exercises, and exit checks are content for a later study session. They must be stored, not administered, during gap research.
+
+### 7. Complete the repository handoff
+
+Before ending the gap-research session:
+
+- save the gap analysis under `research/gaps/`
+- create or update the relevant file under `docs/topics/`
+- add supporting files only when they improve later study
+- link the gap file and study material to each other
+- update verified official links when applicable
+- verify that answer keys match any generated questions
+- mark research/material production as complete without making a learner-mastery claim
+- report the changed files and commits
 
 ## Gap file format
 
@@ -127,20 +170,26 @@ Do not recommend broad extra study without explaining the exact benefit.
 - Evidence:
 - Confidence:
 - Why it matters:
-- Recommended preparation:
+- Study material needed:
+
+## Study-session assets created
 
 ## Claims not accepted
+
+## Suggested future study checkpoint
 
 ## Sources
 ```
 
 ## Relationship to normal study sessions
 
-- A study session should read the matching gap file if it exists.
+- Gap research prepares the documents used by normal study sessions.
+- A later study session reads the matching topic and gap files, then teaches, practices, or evaluates the material.
 - Missing gap research should produce a warning, not block the official study session.
 - The official summary remains based only on current Microsoft sources.
 - The exam-readiness section may summarize accepted findings from the gap file.
 - Broad external research should not occur during a normal one-hour study session.
+- Only a study, review, or assessment session may ask the user questions or evaluate understanding.
 
 ## Relationship to the weekly exam-watch task
 
@@ -153,4 +202,4 @@ It should identify:
 - relevant new videos or resources
 - topics whose gap files may need review
 
-A separate gap-research session decides whether evidence is strong enough to change the repository.
+A separate gap-research session decides whether evidence is strong enough to change the repository and produces the required study-session assets.
