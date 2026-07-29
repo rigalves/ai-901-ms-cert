@@ -51,8 +51,8 @@ The learner follows the official Microsoft Learn sequence by default. Completed 
 
 | Order | Official module | Main coverage | Repository material | Gap status | Learner status |
 |---:|---|---|---|---|---|
-| 1 | [Introduction to AI concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/) | AI workload overview and responsible AI | Topic file pending | Responsible AI/model gap pending | **Completed** |
-| 2 | [Introduction to generative AI and agents](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) | LLMs, prompts, agents | Topic file pending | Generative/model and agent gaps pending | **Completed** |
+| 1 | [Introduction to AI concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/) | AI workload overview and responsible AI | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) | [Gap complete](research/gaps/responsible-ai-model-concepts.md) | **Completed** |
+| 2 | [Introduction to generative AI and agents](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) | LLMs, prompts, agents | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) for LLM mechanics; other topic files pending | [Model-mechanics gap complete](research/gaps/responsible-ai-model-concepts.md); generative/prompt and agent gaps pending | **Completed** |
 | 3 | [Introduction to natural language processing concepts](https://learn.microsoft.com/en-us/training/modules/introduction-language/) | Tokenization, statistical analysis, semantic models | Topic file pending | Text analysis gap pending | **Completed** |
 | 4 | [Introduction to AI speech concepts](https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/) | Recognition, synthesis, speech-enabled solutions | [`docs/topics/speech.md`](docs/topics/speech.md) | [Gap complete](research/gaps/speech-recognition-synthesis.md) | **Completed** |
 | 5 | [Introduction to computer vision concepts](https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/) | Vision tasks, CNNs, ViTs, multimodal models, image generation | [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md) | [Gap complete](research/gaps/computer-vision-image-generation.md) | **In progress** |
@@ -79,16 +79,16 @@ Primary module: [Introduction to AI concepts](https://learn.microsoft.com/en-us/
 
 Primary unit: [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai)
 
-Gap cluster: **Responsible AI and model concepts — pending**
+Gap cluster: [**Responsible AI and model concepts — complete**](research/gaps/responsible-ai-model-concepts.md)
 
 | Official subtopic | Official study link | Prepared asset |
 |---|---|---|
-| Fairness | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
-| Reliability and safety | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
-| Privacy and security | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
-| Inclusiveness | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
-| Transparency | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
-| Accountability | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | Pending gap/topic material |
+| Fairness | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
+| Reliability and safety | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
+| Privacy and security | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
+| Inclusiveness | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
+| Transparency | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
+| Accountability | [Responsible AI](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
 
 ### 2. Identify AI model components and configurations
 
@@ -98,13 +98,13 @@ Primary implementation module: [Get started with generative AI and agents in Azu
 
 Gap clusters:
 
-- **Responsible AI and model concepts — pending**
+- [**Responsible AI and model concepts — complete**](research/gaps/responsible-ai-model-concepts.md)
 - **Generative AI, prompts, and model configuration — pending**
 - [**Foundry resources, projects, deployments, endpoints, and authentication — complete**](research/gaps/foundry-resources-projects-endpoints-authentication.md)
 
 | Official subtopic | Official study links | Prepared asset |
 |---|---|---|
-| How generative AI models work | [Large language models](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models) | Pending gap/topic material |
+| How generative AI models work | [Large language models](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models) | [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
 | Select an appropriate model based on capabilities | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) | Pending model-selection table |
 | Select deployment options and configuration parameters | [Generative AI models](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/2-generative-ai-models) · [Using a generative AI model](https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models) | [`docs/topics/foundry-foundation.md`](docs/topics/foundry-foundation.md) covers deployment foundations; detailed model-selection and configuration practice pending |
 
@@ -219,7 +219,7 @@ The official map defines what must be covered. Gap research strengthens the offi
 
 | # | Gap cluster | Objective coverage | Status | Repository output |
 |---:|---|---|---|---|
-| 1 | Responsible AI and model concepts | Responsible AI; model mechanics | **Pending** | Gap and topic files not yet created |
+| 1 | Responsible AI and model concepts | Responsible AI; model mechanics | **Complete** | [`research/gaps/responsible-ai-model-concepts.md`](research/gaps/responsible-ai-model-concepts.md) · [`docs/topics/responsible-ai-model-concepts.md`](docs/topics/responsible-ai-model-concepts.md) |
 | 2 | Generative AI, prompts, and model configuration | Model selection, deployment/configuration, prompts | **Pending** | Gap and topic files not yet created |
 | 3 | Agentic AI and single-agent solutions | Agent concepts, portal agent, agent client | **Pending** | Gap and topic files not yet created |
 | 4 | Text analysis and Azure Language | NLP techniques and lightweight text-analysis app | **Pending** | Gap and topic files not yet created |
