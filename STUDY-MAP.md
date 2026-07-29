@@ -10,14 +10,14 @@ It connects:
 
 `official domain → official topic → official subtopic/objective → current Microsoft Learn material → gap research → prepared study asset → learner status`
 
-Use this file to decide what to study and which repository material to open. Use [`STATUS.md`](STATUS.md) for confirmed learner progress, [`PLAN.md`](PLAN.md) for strategy, and [`docs/official-links.md`](docs/official-links.md) for the full verified source inventory.
+Use this file to decide what to study and which repository material to open. Use [`STATUS.md`](STATUS.md) for confirmed learner progress and the exact current position, [`PLAN.md`](PLAN.md) for strategy, [`docs/official-links.md`](docs/official-links.md) for the full verified source inventory, and [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md) for diagnostic repair work.
 
 ## Authority and scope
 
 - Exam page: https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/
 - Study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901
 - Concepts path: https://learn.microsoft.com/en-us/training/paths/ai-concepts/
-- Implementation path: https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
+- Implementation path: https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/
 
 The current blueprint contains two domains and **29 objective bullets**:
 
@@ -40,7 +40,7 @@ The objective bullets are illustrative rather than exhaustive. Related topics an
 1. Finish **Introduction to AI speech concepts** using the official module and [`docs/topics/speech.md`](docs/topics/speech.md).
 2. Study **Introduction to computer vision concepts** using [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
 3. Study **Introduction to AI-powered information extraction concepts** using [`docs/topics/information-extraction.md`](docs/topics/information-extraction.md).
-4. Take the official Practice Assessment as the first baseline diagnostic after completing the concepts path.
+4. Take the [official Practice Assessment](https://aiskillsnavigator.microsoft.com/credentials/cert-83587e0a0754cfee561ade3e27d9fa1cdaf15ae03be52d2413b2b858d1b4eda4) as the first baseline diagnostic after completing the concepts path, and record results in [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md).
 5. Complete the six-module Foundry implementation path in order, using the mapped gap and topic assets as they become available.
 
 Gap-research production does not change learner status.
@@ -233,8 +233,9 @@ The official map defines what must be covered. Gap research strengthens the offi
 1. The live study guide remains the authority for scope.
 2. `STUDY-MAP.md` is the navigation source of truth and must contain every active objective bullet.
 3. `docs/official-links.md` is the detailed verified-link inventory.
-4. `STATUS.md` alone owns confirmed learner progress.
-5. Creating gap or topic material must not mark a Learn module complete.
-6. When Microsoft changes the blueprint, a module, or a canonical URL, update the study map and official-link inventory together.
-7. A new gap file must be linked from both its objective rows and the gap-production table.
-8. A normal study session should start from the current route or a user-selected row in this map, not from improvised topic selection.
+4. `STATUS.md` alone owns confirmed learner progress and the exact current study position.
+5. `ASSESSMENT-LOG.md` owns assessment diagnostics, repair actions, and retest status.
+6. Creating gap or topic material must not mark a Learn module complete.
+7. When Microsoft changes the blueprint, a module, or a canonical URL, update the study map and official-link inventory together.
+8. A new gap file must be linked from both its objective rows and the gap-production table.
+9. A normal study session should start from the current route or a user-selected row in this map, not from improvised topic selection.
