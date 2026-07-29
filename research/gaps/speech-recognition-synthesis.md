@@ -90,6 +90,19 @@ Be able to explain the flow as `resource credentials → SpeechConfig → audio 
 - **Why it matters:** The report supports the official preparation direction, but it cannot justify claims such as “speech is heavily tested.”
 - **Recommended preparation:** Use the report only as a reason to practice official objectives, not to change topic weighting.
 
+## Preparation assets created
+
+Created **July 29, 2026**:
+
+- [`../../docs/topics/speech.md`](../../docs/topics/speech.md)
+  - three-way comparison of Azure Speech STT/TTS, Voice Live, and deployed audio-capable models
+  - minimal Python recognition and synthesis flows
+  - five original scenario questions
+  - five original Python code-recognition questions
+  - answer key and no-notes exit check
+
+**Remediation status:** The missing study assets now exist. The gap is not considered mastered or closed until the user completes the practice and exit check.
+
 ## Claims not accepted
 
 - Voice Live alone covers every speech implementation objective.
