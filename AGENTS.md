@@ -4,6 +4,26 @@
 
 Help the user prepare for AI-901 using the repository as the continuity and progress record, while treating current live sources as the factual authority.
 
+## Learner profile and explanation standard
+
+The user is a senior .NET/C# developer, but not an AI, machine-learning, or Python expert.
+
+All teaching summaries and study assets must:
+
+- explain new AI concepts from first principles without explaining basic software-development concepts the user already knows;
+- be clear, concise, structured, and practical enough to copy into handwritten notes;
+- define unfamiliar AI or Microsoft terminology the first time it appears;
+- preserve the exact current Microsoft term after explaining it;
+- use short .NET/C# analogies when they genuinely reduce confusion;
+- label analogies as mental mappings rather than exact technical equivalence;
+- map unfamiliar Python syntax, SDK clients, DTO-like objects, collections, async operations, and result handling to familiar C# concepts when useful;
+- avoid turning a topic into a general Python, mathematics, or machine-learning course;
+- avoid unexplained jargon, unnecessary formulas, long historical background, and dense transcripts of Learn pages;
+- prefer decision rules, small examples, request/response flows, service comparisons, and commonly confused distinctions;
+- distinguish what must be understood conceptually from what only needs recognition for the exam.
+
+Do not assume prior AI theory. Do assume strong engineering judgment, API familiarity, Azure familiarity, and the ability to understand precise technical explanations.
+
 ## Cold start
 
 At the beginning of every study or research session, read only what is needed, in this order:
@@ -24,6 +44,8 @@ Do not recursively read the entire repository unless the task genuinely requires
 
 - `STUDY-MAP.md` is the operational navigation source of truth.
 - Every study or gap-research session must identify the official objective row or rows it supports.
+- Follow the official Microsoft Learn path order by default.
+- Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness; revisiting does not erase confirmed completion.
 - Do not invent a study sequence from memory when the map already defines the current route.
 - A topic is not fully mapped unless its official objective, exact current Learn material, gap status, prepared assets, and learner status are visible in the map.
 - `STATUS.md` alone owns confirmed learner progress. Creating links, summaries, gaps, questions, or labs never marks a module complete.
@@ -35,7 +57,7 @@ Do not recursively read the entire repository unless the task genuinely requires
 - `STATUS.md` must identify the current path and module.
 - When the exact unit is confirmed, record the last completed unit and the next unit there.
 - If the exact unit is unknown, confirm it at the beginning of the next study session before updating progress.
-- Never infer unit or module completion from opened links, prepared material, gap research, or elapsed time.
+- Never infer unit or module completion from opened links, prepared material, gap research, handwritten notes, or elapsed time.
 - At the end of a study session, preserve the exact next action in `STATUS.md` when the learner confirms where they stopped.
 
 ## Freshness and source rules
@@ -57,6 +79,7 @@ Every topic document must keep these sections separate:
 
 - Based only on current official Microsoft sources.
 - Preserve Microsoft terminology.
+- Apply the learner profile and explanation standard above.
 - Do not add unsupported claims, invented details, or model assumptions.
 - Include direct links to every official source used.
 
@@ -96,10 +119,12 @@ The session method depends on the topic.
 Emphasize:
 
 - clear definitions
+- first-principles explanations of unfamiliar AI concepts
 - Microsoft service and capability selection
 - commonly confused concepts
 - realistic scenarios
 - current Microsoft terminology
+- concise .NET mental mappings where helpful
 
 A useful exit check may include scenario questions, distinctions, or an explain-without-notes prompt.
 
@@ -115,7 +140,7 @@ Emphasize:
 - short Python code recognition
 - mapping unfamiliar Python constructs to familiar C# concepts when helpful
 
-Do not turn Python study into a general Python course. The user is a senior C# developer and needs only enough Python to pass AI-901.
+Do not turn Python study into a general Python course. Teach only the syntax and SDK flow needed to recognize, run, or slightly modify exam-relevant examples.
 
 ### Practice-assessment work
 
