@@ -2,6 +2,8 @@
 
 Verified: **July 29, 2026**
 
+> This document was prepared by a gap-research session for use during a later study session. The questions and exit check are stored here; they are not administered during research.
+
 ## Official exam objectives
 
 Current AI-901 objectives relevant to this topic:
@@ -119,9 +121,9 @@ audio_config = speechsdk.audio.AudioOutputConfig(filename="output.wav")
 - `SpeechRecognizer` or `SpeechSynthesizer` ≈ specialized service client.
 - `.get()` waits for the SDK's asynchronous result, similar in purpose to awaiting a `Task`.
 
-## Scenario practice
+## Prepared scenario practice
 
-Answer before opening the key.
+Use these questions during a future study or review session. Answer before opening the key.
 
 1. A conference app must create captions while each presenter is speaking. Which capability should it use?
 2. A company has 12,000 call recordings in Azure Storage and wants searchable transcripts without processing them live. Which approach should it use?
@@ -129,7 +131,7 @@ Answer before opening the key.
 4. A customer-service assistant must hold a low-latency spoken conversation, handle interruptions, and invoke agent tools. Which solution path best fits?
 5. A user uploads a spoken product review and asks an AI model to judge its sentiment, explain the reasoning, and answer with speech. Which solution path best fits?
 
-## Python code-recognition practice
+## Prepared Python code-recognition practice
 
 6. Which class belongs in the blank?
 
@@ -182,9 +184,9 @@ audio_config = speechsdk.audio.________________(filename="output.wav")
 
 </details>
 
-## Exit check
+## Prepared exit check
 
-Without notes, explain all five statements:
+Use this only during a future study or review session. Without notes, explain all five statements:
 
 1. Recognition and synthesis are opposite conversion directions.
 2. Real-time and batch transcription solve different timing and storage scenarios.
@@ -192,7 +194,7 @@ Without notes, explain all five statements:
 4. Azure Speech STT/TTS, Voice Live, and a deployed multimodal model are not interchangeable.
 5. A spoken prompt that requires model reasoning belongs to the multimodal-model objective, not merely speech-to-text.
 
-**Gap addressed for study-material purposes:** 5/5 correct explanations plus at least 8/10 practice answers. This is a study heuristic, not an official Microsoft passing threshold.
+**Suggested future study-session heuristic:** 5/5 correct explanations plus at least 8/10 practice answers. This is not an official Microsoft passing threshold.
 
 ## Exam-readiness gaps
 
@@ -204,7 +206,7 @@ Accepted gaps addressed by this topic file:
 - **Practice gap — High confidence:** minimal recognition/synthesis flows and ten original questions.
 - **Constructor/authentication variation — Medium confidence:** focus on the role of `SpeechConfig`, not one memorized constructor shape.
 
-The preparation assets now exist, but user mastery is not yet confirmed.
+The research-session deliverables are complete. These exercises are reserved for a future study session; no learner status is inferred from their creation.
 
 ## Official sources
 
@@ -225,4 +227,5 @@ See the matching gap-research file. External candidate evidence is not used as o
 
 - Verified on: July 29, 2026
 - Official blueprint checked on: July 29, 2026
-- Topic status: Preparation material complete; mastery pending
+- Research material status: Complete
+- Study-session status: Not started
