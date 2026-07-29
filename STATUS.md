@@ -15,6 +15,7 @@ Last confirmed from conversation: **July 28, 2026**.
 - Modules completed: **3 of 6**
 - Current module: **Introduction to AI speech concepts**
 - Current module status: **in progress**
+- Exact current unit: **not yet confirmed**
 - Remaining after current module: **computer vision concepts** and **information extraction concepts**
 
 ### Get started with AI applications and agents on Azure
@@ -26,6 +27,7 @@ Last confirmed from conversation: **July 28, 2026**.
 
 - Official AI-901 Practice Assessment: **not taken**
 - Decision: take the first full assessment after finishing the concepts learning path
+- Diagnostic record: [`ASSESSMENT-LOG.md`](ASSESSMENT-LOG.md)
 
 ## Background relevant to the plan
 
@@ -36,8 +38,16 @@ Last confirmed from conversation: **July 28, 2026**.
 
 ## Current recommendation
 
-Continue the current Microsoft Learn speech module. Before the next study session, verify and record the exact current Learn unit URL in `docs/official-links.md`.
+Continue **Introduction to AI speech concepts** from the learner's actual Microsoft Learn position, using the mapped official units and [`docs/topics/speech.md`](docs/topics/speech.md).
+
+At the beginning of the next study session:
+
+1. Confirm the last completed speech unit.
+2. Record the exact current or next unit here.
+3. Continue from that unit without changing the confirmed module count until the module is completed.
+
+Do not infer unit progress from opened links, gap research, or prepared study material.
 
 ## Confirmed progress rule
 
-Update this file only when the user confirms completion or when repository work directly proves it. Do not infer progress from generated summaries, opened pages, or created lab files.
+Update this file only when the user confirms completion or when repository work directly proves it. Do not infer progress from generated summaries, opened pages, created gap files, or created lab files.
