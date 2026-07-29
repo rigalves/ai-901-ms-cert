@@ -137,6 +137,19 @@ Verified **July 29, 2026**:
 - Extract information from audio and video: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/3-audio-video
 - Exercise: https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/4-exercise
 
+## Generative AI, prompts, and model-configuration documentation
+
+Verified **July 29, 2026**:
+
+- Microsoft Foundry Models overview: https://learn.microsoft.com/en-us/azure/foundry/concepts/foundry-models-overview
+- Model benchmarks and leaderboards: https://learn.microsoft.com/en-us/azure/foundry/concepts/model-benchmarks
+- Deployment types for Foundry Models: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/deployment-types
+- Model versioning: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/model-versions
+- Foundry model endpoints: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints
+- Prompt engineering techniques: https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/prompt-engineering
+- System message design: https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/advanced-prompt-engineering
+- Responses API reference: https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses
+
 ## Responsible AI and model-concept documentation
 
 Verified **July 29, 2026**:
