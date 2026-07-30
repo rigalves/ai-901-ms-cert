@@ -13,7 +13,7 @@ This file is the verified index of official Microsoft sources used by the study 
 
 ## Core official pages
 
-Verified **July 29, 2026**:
+Verified **July 30, 2026**:
 
 - AI-901 exam page: https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/
 - AI-901 study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901
@@ -158,6 +158,19 @@ Verified **July 30, 2026**:
 - Prompt-agent quickstart: https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/prompt-agent
 - Agent tools overview: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-catalog
 - Agents, conversations, and responses: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/runtime-components
+
+## Text analysis and Azure Language documentation
+
+Verified **July 30, 2026**:
+
+- Azure Language in Foundry Tools overview: https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview
+- Language detection overview: https://learn.microsoft.com/en-us/azure/ai-services/language-service/language-detection/overview
+- Named entity recognition overview: https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/overview
+- PII detection overview: https://learn.microsoft.com/en-us/azure/ai-services/language-service/personally-identifiable-information/overview
+- Key phrase extraction overview and lifecycle notice: https://learn.microsoft.com/en-us/azure/ai-services/language-service/key-phrase-extraction/overview
+- Sentiment analysis and opinion mining overview and lifecycle notice: https://learn.microsoft.com/en-us/azure/ai-services/language-service/sentiment-opinion-mining/overview
+- Summarization overview and lifecycle notice: https://learn.microsoft.com/en-us/azure/ai-services/language-service/summarization/overview
+- Entity linking overview and lifecycle notice: https://learn.microsoft.com/en-us/azure/ai-services/language-service/entity-linking/overview
 
 ## Responsible AI and model-concept documentation
 
