@@ -150,6 +150,15 @@ Verified **July 29, 2026**:
 - System message design: https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/advanced-prompt-engineering
 - Responses API reference: https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses
 
+## Agentic AI and single-agent documentation
+
+Verified **July 30, 2026**:
+
+- Microsoft Foundry Agent Service overview: https://learn.microsoft.com/en-us/azure/foundry/agents/overview
+- Prompt-agent quickstart: https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/prompt-agent
+- Agent tools overview: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-catalog
+- Agents, conversations, and responses: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/runtime-components
+
 ## Responsible AI and model-concept documentation
 
 Verified **July 29, 2026**:
