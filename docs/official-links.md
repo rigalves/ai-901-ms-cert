@@ -231,6 +231,34 @@ Verified **July 30, 2026**:
 - Foundry model deployments and endpoints: https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/endpoints
 - Managed compute and deployment-type overview: https://learn.microsoft.com/en-us/azure/foundry/concepts/managed-compute-overview
 
+## Cross-cutting Python SDK recognition documentation
+
+Verified **July 30, 2026**:
+
+### Microsoft implementation samples
+
+- AI-901 study guide and Python prerequisite: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901
+- Microsoft Foundry SDK quickstart: https://learn.microsoft.com/en-us/azure/foundry/quickstarts/get-started-code
+- Azure AI Projects client library for Python: https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme
+- Foundry generative-model client unit: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/3-using-generative-ai-models
+- Foundry agent client unit: https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/4-creating-an-agent
+- Azure Language Python client unit: https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/3-language-sdk
+- Speech recognition Python sample: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/2-speech-recognition
+- Speech synthesis Python sample: https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/3-speech-synthesis
+- Multimodal image-analysis Python sample: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/2-vision-enabled-models
+- Image-generation Python sample: https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/3-image-generation
+- Content Understanding quickstart and Python samples: https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/quickstart/use-rest-api
+- Content Understanding Python SDK, including synchronous and asynchronous clients: https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentunderstanding-readme?view=azure-python
+
+### Python language references
+
+- Control flow, function definitions, and keyword arguments: https://docs.python.org/3/tutorial/controlflow.html
+- Lists, dictionaries, looping, and generator expressions: https://docs.python.org/3/tutorial/datastructures.html
+- Formatted strings and file input/output: https://docs.python.org/3/tutorial/inputoutput.html
+- `with`, `async with`, and coroutine syntax: https://docs.python.org/3/reference/compound_stmts.html
+- Environment access with `os.environ` and `os.getenv`: https://docs.python.org/3/library/os.html
+- Built-ins including `next`, `enumerate`, `isinstance`, and `hasattr`: https://docs.python.org/3/library/functions.html
+
 ## Remaining documentation inventory
 
 The exact Microsoft Learn module and unit URLs for the complete official curriculum are now verified. Product documentation beyond Learn remains intentionally topic-driven: add supporting documentation during the matching gap-research or study session only after opening and verifying it.
