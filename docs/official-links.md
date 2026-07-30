@@ -159,6 +159,15 @@ Verified **July 30, 2026**:
 - Agent tools overview: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-catalog
 - Agents, conversations, and responses: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/runtime-components
 
+## Foundry SDK chat and agent client documentation
+
+Verified **July 30, 2026**:
+
+- Microsoft Foundry SDKs and endpoint selection: https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview
+- Microsoft Foundry SDK quickstart: https://learn.microsoft.com/en-us/azure/foundry/quickstarts/get-started-code
+- Azure AI Projects client library for Python: https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme
+- Agents, conversations, and responses: https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/runtime-components
+
 ## Text analysis and Azure Language documentation
 
 Verified **July 30, 2026**:
@@ -214,7 +223,7 @@ Verified **July 29, 2026**:
 
 ## Microsoft Foundry foundation documentation
 
-Verified **July 29, 2026**:
+Verified **July 30, 2026**:
 
 - Authentication and authorization: https://learn.microsoft.com/en-us/azure/foundry/concepts/authentication-authorization-foundry
 - Role-based access control: https://learn.microsoft.com/en-us/azure/foundry/concepts/rbac-foundry
