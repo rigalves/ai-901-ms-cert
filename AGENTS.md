@@ -150,6 +150,14 @@ Do not turn Python study into a general Python course. Teach only the syntax and
 - Record the concept or confusion, not copied certification-exam question text.
 - Add a repair action and retest status.
 
+## Multiple-choice question construction
+
+- Randomize the position of the correct answer across the available options instead of repeatedly using the same letter.
+- Across a sequence of questions, deliberately vary the correct-answer positions and avoid visible patterns such as always `B`, simple rotations, or long runs of one letter.
+- After drafting each question, shuffle the options while preserving the intended correct answer and verify that the answer key still matches.
+- Keep distractors plausible and similar in style and length so the correct position is not revealed by wording, detail, or formatting.
+- Do not tell the learner that answer positions were balanced or randomized during the quiz.
+
 ## Writing and repository updates
 
 - Keep summaries concise enough to be handwritten.
