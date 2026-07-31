@@ -16,10 +16,10 @@ Last confirmed from conversation: **July 31, 2026**.
 - Current module: **Introduction to computer vision concepts**
 - Current module status: **in progress**
 - Current module page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
-- Last completed unit: **Images and image processing**
-- Exact current unit: **Convolutional neural networks**
-- Current unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/4-computer-vision-models
-- Next unit: **Vision transformers and multimodal models**
+- Last completed unit: **Convolutional neural networks**
+- Exact current unit: **Vision transformers and multimodal models**
+- Current unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5-modern-vision-models
+- Next unit: **Image generation**
 - Remaining after current module: **Introduction to AI-powered information extraction concepts**
 - Study order: following the official Microsoft Learn path in sequence
 - Paper notes: completed for the four finished concept modules
@@ -48,11 +48,11 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Continue **Introduction to computer vision concepts** with **Convolutional neural networks**, using the mapped official unit and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
+Continue **Introduction to computer vision concepts** with **Vision transformers and multimodal models**, using the mapped official unit and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
 
 At the next study session:
 
-1. Continue Convolutional neural networks.
+1. Continue Vision transformers and multimodal models.
 2. Continue through the official module order.
 3. Preserve the exact stopping point here when confirmed.
 4. Revisit an earlier topic only when requested or supported by diagnostic evidence.
