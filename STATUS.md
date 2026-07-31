@@ -17,9 +17,10 @@ Last confirmed from conversation: **July 31, 2026**.
 - Current module status: **in progress**
 - Current module page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
 - Last completed unit: **Convolutional neural networks**
-- Exact current unit: **Vision transformers and multimodal models**
-- Current unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5-modern-vision-models
-- Next unit: **Image generation**
+- Next unit to start: **Vision transformers and multimodal models**
+- Next unit status: **not started**
+- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5-modern-vision-models
+- Following unit: **Image generation**
 - Remaining after current module: **Introduction to AI-powered information extraction concepts**
 - Study order: following the official Microsoft Learn path in sequence
 - Paper notes: completed for the four finished concept modules
@@ -48,16 +49,16 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Continue **Introduction to computer vision concepts** with **Vision transformers and multimodal models**, using the mapped official unit and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
+Begin **Vision transformers and multimodal models** when the next study session starts, using the mapped official unit and [`docs/topics/computer-vision.md`](docs/topics/computer-vision.md).
 
 At the next study session:
 
-1. Continue Vision transformers and multimodal models.
+1. Start Vision transformers and multimodal models from the beginning.
 2. Continue through the official module order.
 3. Preserve the exact stopping point here when confirmed.
 4. Revisit an earlier topic only when requested or supported by diagnostic evidence.
 
-Do not infer unit progress from opened links, gap research, prepared study material, or handwritten notes alone.
+Do not infer unit progress from opened links, generated explanations, gap research, prepared study material, or handwritten notes alone.
 
 ## Confirmed progress rule
 
