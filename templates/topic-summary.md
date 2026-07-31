@@ -71,6 +71,13 @@ Examples:
 - short Python code-reading exercise
 - minimal lab
 
+For multiple-choice checkpoints:
+
+- vary the correct-answer position across the available options;
+- avoid repeated-letter runs and predictable rotation patterns;
+- shuffle options after drafting and verify the answer key;
+- keep distractors plausible and stylistically comparable to the correct answer.
+
 When this document is being created during gap research, do not administer the checkpoint or ask the user to answer it. The research session only prepares and stores the material.
 
 ## Official sources
