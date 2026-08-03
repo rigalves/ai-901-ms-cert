@@ -150,6 +150,20 @@ Do not turn Python study into a general Python course. Teach only the syntax and
 - Record the concept or confusion, not copied certification-exam question text.
 - Add a repair action and retest status.
 
+## Viewed-material assessment boundary
+
+The detailed durable rule is stored in [`docs/study-session-rules.md`](docs/study-session-rules.md).
+
+- Ask questions only about material the learner has already viewed.
+- Use `STATUS.md` plus the content explicitly taught or reviewed in the current session to determine the allowed scope.
+- Completed units and topics may be reviewed. Content from the current unit becomes eligible only after it has been explicitly taught, read, or reviewed.
+- Never ask about a later unit, module, learning path, or implementation topic that has not been viewed yet.
+- Unviewed concepts must not appear in the question stem, correct answer, distractors, hints, explanations, corrective feedback, or follow-up questions.
+- Repository summaries, gap research, labs, prepared questions, or opened links do not prove that the learner has viewed a topic.
+- Before every knowledge check, checkpoint, review, or assessment question, verify that all tested concepts fit inside the viewed-material boundary.
+- If it is unclear whether a topic has been viewed, treat it as unviewed and do not ask about it.
+- Naming the next topic as part of route planning is allowed; testing the learner on it before study is not.
+
 ## Multiple-choice question construction
 
 - Randomize the position of the correct answer across the available options instead of repeatedly using the same letter.
