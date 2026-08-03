@@ -1,6 +1,6 @@
 # Current Status
 
-Last confirmed from conversation: **July 31, 2026**.
+Last confirmed from conversation: **August 3, 2026**.
 
 ## Target
 
@@ -12,17 +12,18 @@ Last confirmed from conversation: **July 31, 2026**.
 
 ### AI concepts for developers and technology professionals
 
-- Modules completed: **4 of 6**
-- Current module: **Introduction to computer vision concepts**
-- Current module status: **in progress**
-- Current module page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
-- Last completed unit: **Image generation**
-- Next unit to start: **Exercise**
-- Next unit status: **not started**
-- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5b-exercise
-- Remaining after current module: **Introduction to AI-powered information extraction concepts**
+- Modules completed: **5 of 6**
+- Last completed module: **Introduction to computer vision concepts**
+- Last completed unit: **Summary**
+- Computer vision checkpoint: **16/20 initial, then 4/4 targeted repair**
+- Next module: **Introduction to AI-powered information extraction concepts**
+- Next module status: **not started**
+- Next module page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/
+- Next unit to start: **Introduction**
+- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/1-introduction
+- Remaining after the next module: **none in the concepts learning path**
 - Study order: following the official Microsoft Learn path in sequence
-- Paper notes: completed for the four finished concept modules
+- Paper notes: completed for the five finished concept modules
 
 Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness. Revisiting does not erase confirmed completion.
 
@@ -48,14 +49,17 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Complete the **Exercise** for **Introduction to computer vision concepts** at the next study segment. After the exercise and module completion are confirmed, continue with **Introduction to AI-powered information extraction concepts**.
+Start **Introduction to AI-powered information extraction concepts** with the **Introduction** unit. Continue through the module in official order:
 
-At the next study segment:
+1. Introduction.
+2. Overview of information extraction.
+3. Optical character recognition (OCR).
+4. Field extraction and mapping.
+5. Exercise - Explore AI information extraction.
+6. Module assessment.
+7. Summary.
 
-1. Start the computer vision module Exercise.
-2. Confirm the module completion only after the exercise is finished.
-3. Then begin Introduction to AI-powered information extraction concepts.
-4. Preserve the exact stopping point here when confirmed.
+After this module is complete, take the official AI-901 Practice Assessment as the first baseline diagnostic before beginning the Foundry implementation learning path.
 
 Do not infer unit or module completion from opened links, generated explanations, gap research, prepared study material, or handwritten notes alone.
 
