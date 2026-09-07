@@ -1,6 +1,6 @@
 # Current Status
 
-Last confirmed from conversation: **August 5, 2026**.
+Last confirmed from conversation: **September 7, 2026**.
 
 ## Target
 
@@ -16,16 +16,17 @@ Last confirmed from conversation: **August 5, 2026**.
 - Last completed module: **Introduction to computer vision concepts**
 - Current module: **Introduction to AI-powered information extraction concepts**
 - Current module status: **in progress**
-- Last completed unit: **Optical character recognition (OCR)**
-- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/3-vision-extraction
-- Next unit to start: **Field extraction and mapping**
+- Last completed unit: **Field extraction and mapping**
+- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/4-form-extraction
+- Next unit to start: **Exercise - Explore AI information extraction**
 - Next unit status: **not started**
-- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/4-form-extraction
+- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise
 - Remaining after the current module: **none in the concepts learning path**
 - Study order: following the official Microsoft Learn path in sequence
-- Paper notes: completed for the five finished concept modules
+- Paper notes: completed through **Field extraction and mapping** in the current module
 - Computer vision checkpoint: **16/20 initial, then 4/4 targeted repair**
 - OCR checkpoint: **5/5**
+- Field extraction checkpoint: **not yet taken**
 
 Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness. Revisiting does not erase confirmed completion.
 
@@ -51,15 +52,15 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Resume **Introduction to AI-powered information extraction concepts** at **Field extraction and mapping**. The learner has completed:
+Resume **Introduction to AI-powered information extraction concepts** at **Exercise - Explore AI information extraction**. The learner has completed:
 
 1. Introduction.
 2. Overview of information extraction.
 3. Optical character recognition (OCR).
+4. Field extraction and mapping.
 
 Continue through the remaining units in official order:
 
-4. Field extraction and mapping.
 5. Exercise - Explore AI information extraction.
 6. Module assessment.
 7. Summary.
