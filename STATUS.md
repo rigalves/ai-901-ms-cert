@@ -26,7 +26,7 @@ Last confirmed from conversation: **September 7, 2026**.
 - Paper notes: completed through **Field extraction and mapping** in the current module
 - Computer vision checkpoint: **16/20 initial, then 4/4 targeted repair**
 - OCR checkpoint: **5/5**
-- Field extraction checkpoint: **not yet taken**
+- Field extraction checkpoint: **4/5 (80%)**; missed distinction between field detection and normalization, reviewed immediately
 
 Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness. Revisiting does not erase confirmed completion.
 
