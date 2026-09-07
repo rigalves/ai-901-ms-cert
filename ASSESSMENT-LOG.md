@@ -1,37 +1,32 @@
 # AI-901 Assessment Log
 
-## Purpose
+Use this file to record diagnostic practice and targeted repair without copying certification-exam question text.
 
-Persist diagnostic results from official Practice Assessments and trustworthy original practice sets so missed concepts can be repaired against the official curriculum.
+## July 30, 2026 — Computer vision checkpoint
 
-This file tracks assessment evidence. It does not replace [`STATUS.md`](STATUS.md), which owns confirmed Microsoft Learn progress.
+- Initial score: **16/20**
+- Targeted repair: **4/4**
+- Main repair areas: distinctions around modern vision-model concepts and image-generation behavior.
+- Retest status: repaired successfully.
 
-## Rules
+## September 7, 2026 — OCR checkpoint
 
-- Use the official Practice Assessment or original, non-dump practice material.
-- Do not copy, reconstruct, or preserve real certification exam questions.
-- Map every missed or uncertain item to the closest objective row in [`STUDY-MAP.md`](STUDY-MAP.md).
-- Record the underlying concept or confusion, not merely the selected answer.
-- Use one error type:
-  - missing knowledge
-  - confused similar services or capabilities
-  - unfamiliar portal or SDK workflow
-  - misread scenario or code
-- Add a concrete repair action and retest with a new question.
-- Scores are study evidence, not conversions of Microsoft's scaled passing score.
+- Score: **5/5**
+- Objective area: information extraction / OCR.
+- Result: no repair required.
 
-## Assessment attempts
+## September 7, 2026 — Field extraction checkpoint
 
-| Date | Source | Score/result | Time used | Notes |
-|---|---|---|---|---|
-| — | Official AI-901 Practice Assessment | Not taken | — | Planned after completing the concepts learning path |
+- Score: **4/5 (80%)**
+- Objective area: information extraction / field extraction and mapping.
+- Missed concept: confused **field detection and candidate identification** with **data normalization and standardization** in a scenario where OCR had already read the text and the system was identifying a potentially relevant value.
+- Repair action: reviewed the current Microsoft pipeline distinction:
+  - field detection identifies candidate values;
+  - field mapping associates candidates with schema/business fields;
+  - normalization standardizes extracted values into consistent formats.
+- Retest status: **pending**; revisit in a later mixed review or assessment.
 
-## Diagnostic items
+## Official Practice Assessment
 
-| Date | Source | Mapped objective | Error type | What was missing or confused | Repair action or asset | Retest status |
-|---|---|---|---|---|---|---|
-| — | — | — | — | No diagnostic items recorded yet | — | — |
-
-## Current weak objectives
-
-None identified yet. Populate this section only from assessment evidence.
+- Status: **not taken**
+- Plan: take the first full official Practice Assessment after completing the concepts learning path.
