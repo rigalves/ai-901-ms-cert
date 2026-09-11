@@ -12,25 +12,23 @@ Last confirmed from conversation: **September 11, 2026**.
 
 ### AI concepts for developers and technology professionals
 
-- Modules completed: **5 of 7**
-- Last completed module: **Introduction to computer vision concepts**
-- Current module: **Introduction to AI-powered information extraction concepts**
-- Current module status: **in progress**
-- Last completed unit: **Module assessment**
-- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/7-knowledge-check
-- Module assessment result: **3/3 (100%)**
-- Next unit to start: **Summary**
-- Next unit status: **not started**
-- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/8-summary
-- Remaining after the current module: **Introduction to retrieval-augmented generation concepts**
-- Remaining module page: https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/
+- Modules completed: **6 of 7**
+- Last completed module: **Introduction to AI-powered information extraction concepts**
+- Last completed unit: **Summary**
+- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/8-summary
+- Information extraction module assessment result: **3/3 (100%)**
+- Current module: **Introduction to retrieval-augmented generation concepts**
+- Current module status: **not started**
+- Next unit to start: **Introduction**
+- Next unit page: https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/1-introduction
+- Remaining after the current module: **none in the concepts learning path**
 - Study order: following the official Microsoft Learn path in sequence
-- Paper notes: completed through **Field extraction and mapping** in the current module
+- Paper notes: completed through **Field extraction and mapping** in the information extraction module
 - Computer vision checkpoint: **16/20 initial, then 4/4 targeted repair**
 - OCR checkpoint: **5/5**
 - Field extraction checkpoint: **4/5 (80%)**; missed distinction between field detection and normalization, reviewed immediately
 
-> Path freshness note (September 11, 2026): Microsoft Learn now lists **7 modules** in the concepts path and includes **Introduction to retrieval-augmented generation concepts** after information extraction. This changes the route structure, not the learner's confirmed completed work.
+> Path freshness note (September 11, 2026): Microsoft Learn now lists **7 modules** in the concepts path and includes **Introduction to retrieval-augmented generation concepts** after information extraction. This changes the route structure, not the learner's previously confirmed completed work.
 
 Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness. Revisiting does not erase confirmed completion.
 
@@ -58,20 +56,20 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Continue **Introduction to AI-powered information extraction concepts** at the **Summary**. The learner has completed:
+Start **Introduction to retrieval-augmented generation concepts**, the final module in the current concepts learning path.
+
+Current official unit order:
 
 1. Introduction.
-2. Overview of information extraction.
-3. Optical character recognition (OCR).
-4. Field extraction and mapping.
-5. Exercise - Explore AI information extraction.
-6. Module assessment — **3/3 (100%)**.
+2. Understand retrieval-augmented generation.
+3. Prepare data for retrieval.
+4. Retrieve information and generate a response.
+5. Evaluate a RAG solution.
+6. Exercise - Explore RAG.
+7. Module assessment.
+8. Summary.
 
-The only remaining unit in this module is:
-
-7. Summary.
-
-After this module is complete, continue with **Introduction to retrieval-augmented generation concepts**, which Microsoft Learn now includes as the final module in the concepts path. After the concepts path is complete, take the official AI-901 Practice Assessment as the first baseline diagnostic before beginning the Foundry implementation learning path.
+After this module is complete, take the official AI-901 Practice Assessment as the first baseline diagnostic before beginning the Foundry implementation learning path.
 
 Do not infer unit or module completion from opened links, generated explanations, gap research, prepared study material, or handwritten notes alone.
 
