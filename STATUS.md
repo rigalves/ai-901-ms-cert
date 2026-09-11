@@ -12,7 +12,7 @@ Last confirmed from conversation: **September 7, 2026**.
 
 ### AI concepts for developers and technology professionals
 
-- Modules completed: **5 of 6**
+- Modules completed: **5 of 7**
 - Last completed module: **Introduction to computer vision concepts**
 - Current module: **Introduction to AI-powered information extraction concepts**
 - Current module status: **in progress**
@@ -21,12 +21,15 @@ Last confirmed from conversation: **September 7, 2026**.
 - Next unit to start: **Exercise - Explore AI information extraction**
 - Next unit status: **not started**
 - Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise
-- Remaining after the current module: **none in the concepts learning path**
+- Remaining after the current module: **Introduction to retrieval-augmented generation concepts**
+- Remaining module page: https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/
 - Study order: following the official Microsoft Learn path in sequence
 - Paper notes: completed through **Field extraction and mapping** in the current module
 - Computer vision checkpoint: **16/20 initial, then 4/4 targeted repair**
 - OCR checkpoint: **5/5**
 - Field extraction checkpoint: **4/5 (80%)**; missed distinction between field detection and normalization, reviewed immediately
+
+> Path freshness note (September 11, 2026): Microsoft Learn now lists **7 modules** in the concepts path and includes **Introduction to retrieval-augmented generation concepts** after information extraction. This changes the route structure, not the learner's confirmed completed work.
 
 Completed topics may be revisited when the user requests review or assessment evidence identifies a weakness. Revisiting does not erase confirmed completion.
 
@@ -65,7 +68,7 @@ Continue through the remaining units in official order:
 6. Module assessment.
 7. Summary.
 
-After this module is complete, take the official AI-901 Practice Assessment as the first baseline diagnostic before beginning the Foundry implementation learning path.
+After this module is complete, continue with **Introduction to retrieval-augmented generation concepts**, which Microsoft Learn now includes as the final module in the concepts path. After the concepts path is complete, take the official AI-901 Practice Assessment as the first baseline diagnostic before beginning the Foundry implementation learning path.
 
 Do not infer unit or module completion from opened links, generated explanations, gap research, prepared study material, or handwritten notes alone.
 
