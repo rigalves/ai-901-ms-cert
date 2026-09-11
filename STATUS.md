@@ -19,6 +19,9 @@ Last confirmed from conversation: **September 11, 2026**.
 - Information extraction module assessment result: **3/3 (100%)**
 - Current module: **Introduction to retrieval-augmented generation concepts**
 - Current module status: **not started**
+- Current module progress: **0 of 8 units completed**
+- Microsoft Learn estimate remaining: **34 minutes**
+- Exact stopping point: **before the Introduction unit**
 - Next unit to start: **Introduction**
 - Next unit page: https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/1-introduction
 - Remaining after the current module: **none in the concepts learning path**
