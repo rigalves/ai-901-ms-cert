@@ -1,6 +1,6 @@
 # Current Status
 
-Last confirmed from conversation: **September 7, 2026**.
+Last confirmed from conversation: **September 11, 2026**.
 
 ## Target
 
@@ -16,11 +16,11 @@ Last confirmed from conversation: **September 7, 2026**.
 - Last completed module: **Introduction to computer vision concepts**
 - Current module: **Introduction to AI-powered information extraction concepts**
 - Current module status: **in progress**
-- Last completed unit: **Field extraction and mapping**
-- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/4-form-extraction
-- Next unit to start: **Exercise - Explore AI information extraction**
+- Last completed unit: **Exercise - Explore AI information extraction**
+- Last completed unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise
+- Next unit to start: **Module assessment**
 - Next unit status: **not started**
-- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise
+- Next unit page: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/7-knowledge-check
 - Remaining after the current module: **Introduction to retrieval-augmented generation concepts**
 - Remaining module page: https://learn.microsoft.com/en-us/training/modules/rag-fundamentals/
 - Study order: following the official Microsoft Learn path in sequence
@@ -35,8 +35,10 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ### Get started with AI applications and agents on Azure
 
-- Modules completed: **0 of 6**
+- Modules completed: **0 of 7**
 - Status: **not started**
+
+> Path freshness note (September 11, 2026): Microsoft Learn now lists **7 modules** in the implementation path and includes **Get started with Microsoft Foundry IQ**.
 
 ## Practice assessment
 
@@ -55,16 +57,16 @@ Completed topics may be revisited when the user requests review or assessment ev
 
 ## Current recommendation
 
-Resume **Introduction to AI-powered information extraction concepts** at **Exercise - Explore AI information extraction**. The learner has completed:
+Continue **Introduction to AI-powered information extraction concepts** at the **Module assessment**. The learner has completed:
 
 1. Introduction.
 2. Overview of information extraction.
 3. Optical character recognition (OCR).
 4. Field extraction and mapping.
+5. Exercise - Explore AI information extraction.
 
 Continue through the remaining units in official order:
 
-5. Exercise - Explore AI information extraction.
 6. Module assessment.
 7. Summary.
 
